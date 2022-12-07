@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3219FC2940764A00513004 /* TurathunaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3219FB2940764A00513004 /* TurathunaApp.swift */; };
+		1C3219FE2940764A00513004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3219FD2940764A00513004 /* ContentView.swift */; };
+		1C321A002940764C00513004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3219FF2940764C00513004 /* Assets.xcassets */; };
+		1C321A042940764C00513004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C321A032940764C00513004 /* Preview Assets.xcassets */; };
+		1C321A0E2940764C00513004 /* TurathunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A0D2940764C00513004 /* TurathunaTests.swift */; };
+		1C321A182940764C00513004 /* TurathunaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A172940764C00513004 /* TurathunaUITests.swift */; };
+		1C321A1A2940764C00513004 /* TurathunaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A192940764C00513004 /* TurathunaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C321A0A2940764C00513004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3219F02940764A00513004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3219F72940764A00513004;
+			remoteInfo = Turathuna;
+		};
+		1C321A142940764C00513004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3219F02940764A00513004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3219F72940764A00513004;
+			remoteInfo = Turathuna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C3219F82940764A00513004 /* Turathuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turathuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3219FB2940764A00513004 /* TurathunaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurathunaApp.swift; sourceTree = "<group>"; };
+		1C3219FD2940764A00513004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C3219FF2940764C00513004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C321A012940764C00513004 /* Turathuna.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Turathuna.entitlements; sourceTree = "<group>"; };
+		1C321A032940764C00513004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C321A092940764C00513004 /* TurathunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurathunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C321A0D2940764C00513004 /* TurathunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurathunaTests.swift; sourceTree = "<group>"; };
+		1C321A132940764C00513004 /* TurathunaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurathunaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C321A172940764C00513004 /* TurathunaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurathunaUITests.swift; sourceTree = "<group>"; };
+		1C321A192940764C00513004 /* TurathunaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurathunaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C3219F52940764A00513004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C321A062940764C00513004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C321A102940764C00513004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3219EF2940764A00513004 = {
+			isa = PBXGroup;
+			children = (
+				1C3219FA2940764A00513004 /* Turathuna */,
+				1C321A0C2940764C00513004 /* TurathunaTests */,
+				1C321A162940764C00513004 /* TurathunaUITests */,
+				1C3219F92940764A00513004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C3219F92940764A00513004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C3219F82940764A00513004 /* Turathuna.app */,
+				1C321A092940764C00513004 /* TurathunaTests.xctest */,
+				1C321A132940764C00513004 /* TurathunaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C3219FA2940764A00513004 /* Turathuna */ = {
+			isa = PBXGroup;
+			children = (
+				1C3219FB2940764A00513004 /* TurathunaApp.swift */,
+				1C3219FD2940764A00513004 /* ContentView.swift */,
+				1C3219FF2940764C00513004 /* Assets.xcassets */,
+				1C321A012940764C00513004 /* Turathuna.entitlements */,
+				1C321A022940764C00513004 /* Preview Content */,
+			);
+			path = Turathuna;
+			sourceTree = "<group>";
+		};
+		1C321A022940764C00513004 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C321A032940764C00513004 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C321A0C2940764C00513004 /* TurathunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C321A0D2940764C00513004 /* TurathunaTests.swift */,
+			);
+			path = TurathunaTests;
+			sourceTree = "<group>";
+		};
+		1C321A162940764C00513004 /* TurathunaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C321A172940764C00513004 /* TurathunaUITests.swift */,
+				1C321A192940764C00513004 /* TurathunaUITestsLaunchTests.swift */,
+			);
+			path = TurathunaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C3219F72940764A00513004 /* Turathuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C321A1D2940764C00513004 /* Build configuration list for PBXNativeTarget "Turathuna" */;
+			buildPhases = (
+				1C3219F42940764A00513004 /* Sources */,
+				1C3219F52940764A00513004 /* Frameworks */,
+				1C3219F62940764A00513004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Turathuna;
+			productName = Turathuna;
+			productReference = 1C3219F82940764A00513004 /* Turathuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C321A082940764C00513004 /* TurathunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C321A202940764C00513004 /* Build configuration list for PBXNativeTarget "TurathunaTests" */;
+			buildPhases = (
+				1C321A052940764C00513004 /* Sources */,
+				1C321A062940764C00513004 /* Frameworks */,
+				1C321A072940764C00513004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C321A0B2940764C00513004 /* PBXTargetDependency */,
+			);
+			name = TurathunaTests;
+			productName = TurathunaTests;
+			productReference = 1C321A092940764C00513004 /* TurathunaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C321A122940764C00513004 /* TurathunaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C321A232940764C00513004 /* Build configuration list for PBXNativeTarget "TurathunaUITests" */;
+			buildPhases = (
+				1C321A0F2940764C00513004 /* Sources */,
+				1C321A102940764C00513004 /* Frameworks */,
+				1C321A112940764C00513004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C321A152940764C00513004 /* PBXTargetDependency */,
+			);
+			name = TurathunaUITests;
+			productName = TurathunaUITests;
+			productReference = 1C321A132940764C00513004 /* TurathunaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C3219F02940764A00513004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1C3219F72940764A00513004 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1C321A082940764C00513004 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1C3219F72940764A00513004;
+					};
+					1C321A122940764C00513004 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1C3219F72940764A00513004;
+					};
+				};
+			};
+			buildConfigurationList = 1C3219F32940764A00513004 /* Build configuration list for PBXProject "Turathuna" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C3219EF2940764A00513004;
+			productRefGroup = 1C3219F92940764A00513004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3219F72940764A00513004 /* Turathuna */,
+				1C321A082940764C00513004 /* TurathunaTests */,
+				1C321A122940764C00513004 /* TurathunaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C3219F62940764A00513004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C321A042940764C00513004 /* Preview Assets.xcassets in Resources */,
+				1C321A002940764C00513004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C321A072940764C00513004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C321A112940764C00513004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C3219F42940764A00513004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3219FE2940764A00513004 /* ContentView.swift in Sources */,
+				1C3219FC2940764A00513004 /* TurathunaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C321A052940764C00513004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C321A0E2940764C00513004 /* TurathunaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C321A0F2940764C00513004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C321A182940764C00513004 /* TurathunaUITests.swift in Sources */,
+				1C321A1A2940764C00513004 /* TurathunaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C321A0B2940764C00513004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3219F72940764A00513004 /* Turathuna */;
+			targetProxy = 1C321A0A2940764C00513004 /* PBXContainerItemProxy */;
+		};
+		1C321A152940764C00513004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3219F72940764A00513004 /* Turathuna */;
+			targetProxy = 1C321A142940764C00513004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C321A1B2940764C00513004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C321A1C2940764C00513004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1C321A1E2940764C00513004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Turathuna/Turathuna.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turathuna/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.Turathuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C321A1F2940764C00513004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Turathuna/Turathuna.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turathuna/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.Turathuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C321A212940764C00513004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.TurathunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turathuna.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Turathuna";
+			};
+			name = Debug;
+		};
+		1C321A222940764C00513004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.TurathunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turathuna.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Turathuna";
+			};
+			name = Release;
+		};
+		1C321A242940764C00513004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.TurathunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Turathuna;
+			};
+			name = Debug;
+		};
+		1C321A252940764C00513004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.TurathunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Turathuna;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3219F32940764A00513004 /* Build configuration list for PBXProject "Turathuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C321A1B2940764C00513004 /* Debug */,
+				1C321A1C2940764C00513004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C321A1D2940764C00513004 /* Build configuration list for PBXNativeTarget "Turathuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C321A1E2940764C00513004 /* Debug */,
+				1C321A1F2940764C00513004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C321A202940764C00513004 /* Build configuration list for PBXNativeTarget "TurathunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C321A212940764C00513004 /* Debug */,
+				1C321A222940764C00513004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C321A232940764C00513004 /* Build configuration list for PBXNativeTarget "TurathunaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C321A242940764C00513004 /* Debug */,
+				1C321A252940764C00513004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C3219F02940764A00513004 /* Project object */;
+}
