@@ -12,8 +12,20 @@
 		1C321A002940764C00513004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3219FF2940764C00513004 /* Assets.xcassets */; };
 		1C321A042940764C00513004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C321A032940764C00513004 /* Preview Assets.xcassets */; };
 		1C321A0E2940764C00513004 /* TurathunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A0D2940764C00513004 /* TurathunaTests.swift */; };
-		1C321A182940764C00513004 /* TurathunaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A172940764C00513004 /* TurathunaUITests.swift */; };
 		1C321A1A2940764C00513004 /* TurathunaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A192940764C00513004 /* TurathunaUITestsLaunchTests.swift */; };
+		1C321A282940786600513004 /* SplachScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A272940786600513004 /* SplachScreenView.swift */; };
+		1C321A2A294080A100513004 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C321A29294080A100513004 /* Background.png */; };
+		1C321A302945AE7100513004 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A2F2945AE7100513004 /* SampleData.swift */; };
+		1C321AEB294AF16D00513004 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321AEA294AF16D00513004 /* Cities.swift */; };
+		1C321AED294B0CC100513004 /* Jazan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321AEC294B0CC100513004 /* Jazan.swift */; };
+		1C321AF1294B0DE900513004 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321AF0294B0DE900513004 /* Map.swift */; };
+		1C321AF7294B10B700513004 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321AE22949B14700513004 /* City.swift */; };
+		1C321AF8294B10B900513004 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321ADA29487FFA00513004 /* PlacesView.swift */; };
+		1C321AF9294B10BB00513004 /* AlBujairi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321ADE2948D4BA00513004 /* AlBujairi.swift */; };
+		1C321AFA294B10BE00513004 /* WadiHanifah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321ADC2948D2FD00513004 /* WadiHanifah.swift */; };
+		1C321AFB294B10C100513004 /* Turaif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321AE02949ABD500513004 /* Turaif.swift */; };
+		1C321AFD294B10C700513004 /* TurathunaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321A172940764C00513004 /* TurathunaUITests.swift */; };
+		1C321AFF294B81F500513004 /* Farasan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321AFE294B81F500513004 /* Farasan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,18 @@
 		1C321A132940764C00513004 /* TurathunaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurathunaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C321A172940764C00513004 /* TurathunaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurathunaUITests.swift; sourceTree = "<group>"; };
 		1C321A192940764C00513004 /* TurathunaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurathunaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C321A272940786600513004 /* SplachScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplachScreenView.swift; sourceTree = "<group>"; };
+		1C321A29294080A100513004 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = ../../Background.png; sourceTree = "<group>"; };
+		1C321A2F2945AE7100513004 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		1C321ADA29487FFA00513004 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		1C321ADC2948D2FD00513004 /* WadiHanifah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WadiHanifah.swift; sourceTree = "<group>"; };
+		1C321ADE2948D4BA00513004 /* AlBujairi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlBujairi.swift; sourceTree = "<group>"; };
+		1C321AE02949ABD500513004 /* Turaif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turaif.swift; sourceTree = "<group>"; };
+		1C321AE22949B14700513004 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		1C321AEA294AF16D00513004 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		1C321AEC294B0CC100513004 /* Jazan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jazan.swift; sourceTree = "<group>"; };
+		1C321AF0294B0DE900513004 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		1C321AFE294B81F500513004 /* Farasan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farasan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +99,17 @@
 		1C3219EF2940764A00513004 = {
 			isa = PBXGroup;
 			children = (
+				1C321AF0294B0DE900513004 /* Map.swift */,
+				1C321AEA294AF16D00513004 /* Cities.swift */,
+				1C321AE22949B14700513004 /* City.swift */,
+				1C321ADA29487FFA00513004 /* PlacesView.swift */,
+				1C321A272940786600513004 /* SplachScreenView.swift */,
+				1C3219FB2940764A00513004 /* TurathunaApp.swift */,
+				1C3219FD2940764A00513004 /* ContentView.swift */,
+				1C321ADE2948D4BA00513004 /* AlBujairi.swift */,
+				1C321ADC2948D2FD00513004 /* WadiHanifah.swift */,
+				1C321AE02949ABD500513004 /* Turaif.swift */,
+				1C321AEF294B0D9E00513004 /* Jazan */,
 				1C3219FA2940764A00513004 /* Turathuna */,
 				1C321A0C2940764C00513004 /* TurathunaTests */,
 				1C321A162940764C00513004 /* TurathunaUITests */,
@@ -95,11 +130,10 @@
 		1C3219FA2940764A00513004 /* Turathuna */ = {
 			isa = PBXGroup;
 			children = (
-				1C3219FB2940764A00513004 /* TurathunaApp.swift */,
-				1C3219FD2940764A00513004 /* ContentView.swift */,
 				1C3219FF2940764C00513004 /* Assets.xcassets */,
 				1C321A012940764C00513004 /* Turathuna.entitlements */,
 				1C321A022940764C00513004 /* Preview Content */,
+				1C321A2F2945AE7100513004 /* SampleData.swift */,
 			);
 			path = Turathuna;
 			sourceTree = "<group>";
@@ -123,10 +157,20 @@
 		1C321A162940764C00513004 /* TurathunaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1C321A172940764C00513004 /* TurathunaUITests.swift */,
+				1C321A29294080A100513004 /* Background.png */,
 				1C321A192940764C00513004 /* TurathunaUITestsLaunchTests.swift */,
+				1C321A172940764C00513004 /* TurathunaUITests.swift */,
 			);
 			path = TurathunaUITests;
+			sourceTree = "<group>";
+		};
+		1C321AEF294B0D9E00513004 /* Jazan */ = {
+			isa = PBXGroup;
+			children = (
+				1C321AEC294B0CC100513004 /* Jazan.swift */,
+				1C321AFE294B81F500513004 /* Farasan.swift */,
+			);
+			path = Jazan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C321A2A294080A100513004 /* Background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C321AF1294B0DE900513004 /* Map.swift in Sources */,
+				1C321AFF294B81F500513004 /* Farasan.swift in Sources */,
+				1C321AF9294B10BB00513004 /* AlBujairi.swift in Sources */,
+				1C321A282940786600513004 /* SplachScreenView.swift in Sources */,
+				1C321AFB294B10C100513004 /* Turaif.swift in Sources */,
+				1C321AFA294B10BE00513004 /* WadiHanifah.swift in Sources */,
 				1C3219FE2940764A00513004 /* ContentView.swift in Sources */,
+				1C321AF7294B10B700513004 /* City.swift in Sources */,
+				1C321AED294B0CC100513004 /* Jazan.swift in Sources */,
+				1C321AF8294B10B900513004 /* PlacesView.swift in Sources */,
+				1C321AEB294AF16D00513004 /* Cities.swift in Sources */,
+				1C321A302945AE7100513004 /* SampleData.swift in Sources */,
 				1C3219FC2940764A00513004 /* TurathunaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C321A182940764C00513004 /* TurathunaUITests.swift in Sources */,
+				1C321AFD294B10C700513004 /* TurathunaUITests.swift in Sources */,
 				1C321A1A2940764C00513004 /* TurathunaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,8 +471,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Turathuna/Preview Content\"";
+				DEVELOPMENT_TEAM = 2KXVWCLZH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Turathuna;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -451,8 +510,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Turathuna/Preview Content\"";
+				DEVELOPMENT_TEAM = 2KXVWCLZH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Turathuna;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
