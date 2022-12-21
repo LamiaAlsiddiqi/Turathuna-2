@@ -22,7 +22,7 @@ struct PlacesView: View {
                 .ignoresSafeArea()
         
         VStack {
-            Image("Diriyah")
+            Image(places.image)
             .resizable()
             .aspectRatio(contentMode: .fit)
             .edgesIgnoringSafeArea(.top)
@@ -47,13 +47,14 @@ struct PlacesView: View {
                         Text("Location").font(.system(size: 20, weight: .light, design: .rounded)).frame(maxWidth: .infinity, alignment: .leading)
                             .foregroundColor(Color(red: 0.173, green: 0.417, blue: 0.233))
 
-                    } icon: {
+                    } icon: { 
                         Image(systemName: "location.circle.fill")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 24.0, height: 25.0)
                             .foregroundColor(Color(red: 0.173, green: 0.417, blue: 0.233))
                             .padding(.leading)
+                        
                     }
                     
                 }
@@ -96,7 +97,9 @@ struct PlacesView: View {
 
 struct Diriyah_Previews: PreviewProvider {
     static var previews: some View {
-        PlacesView(places: .init(
+        PlacesView(places:
+                
+        .init(
             namePlace: "Diriyah",
             image: "Diriyah",
             location: "s",

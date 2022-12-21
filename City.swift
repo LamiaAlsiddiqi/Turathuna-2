@@ -255,7 +255,7 @@ struct Riyadh_Previews: PreviewProvider {
             .init(
                 namePlace: "Diriyah",
                 image: "Diriyah",
-                location: "s",
+                location: "Location",
                 des: "Diriyah was the original home of the Saudi royal family, and served as the capital of the Emirate of Diriyah under the first Saudi dynasty from 1727 to 1818. It is located on the north-western outskirts of Riyadh. The ruins of the old city are made of mud-bricks and lay on the sides of Wadi Hanifah. It includes Turaif, AlBujairi, and Wadi Hanifah.",
                 // LANDMARKS
                   landMarks:
@@ -263,21 +263,21 @@ struct Riyadh_Previews: PreviewProvider {
                         .init(
                         name: "Turaif",
                         image: "Turaif",
-                        des: "At-Turaif is a historic district located in Al-Diriyah north-west of Riyadh which is regarded as one of the important political and historical sites in Saudi Arabia, represented the capital of Saudi dynasty, it was the original home of the Saudi royal family and the country’s first capital, from 1727 till the Ottomans sacking of the area in 1818.At-Turaif District was founded in the 15th century bearing an architectural style of Najdi; this historical site was inscribed in UNESCO World Heritage List on July 31, 2010.The various palaces in this area with an oasis and the Najdi architectural and decorative style was one of the UNESCO criteria to list the district as a World Heritage site. Moreover, The At-Turaif District was the first historical center with a unifying power in the Arabian Peninsula.There are some Historic palaces and monuments in At-Turaif district include: Salwa Palace, Saad bin Saud Palac, The Guest House and At-Turaif Bath House, Imam Mohammad bin Saud Mosque", location: "s1")
+                        des: "At-Turaif is a historic district located in Al-Diriyah north-west of Riyadh which is regarded as one of the important political and historical sites in Saudi Arabia, represented the capital of Saudi dynasty, it was the original home of the Saudi royal family and the country’s first capital, from 1727 till the Ottomans sacking of the area in 1818.At-Turaif District was founded in the 15th century bearing an architectural style of Najdi; this historical site was inscribed in UNESCO World Heritage List on July 31, 2010.The various palaces in this area with an oasis and the Najdi architectural and decorative style was one of the UNESCO criteria to list the district as a World Heritage site. Moreover, The At-Turaif District was the first historical center with a unifying power in the Arabian Peninsula.There are some Historic palaces and monuments in At-Turaif district include: Salwa Palace, Saad bin Saud Palac, The Guest House and At-Turaif Bath House, Imam Mohammad bin Saud Mosque", location: "Location")
                         ,
                      .init(
                         name: "Wadi Hanifah",
                         image: "WadiHanifah",
                         des: "Wadi Hanifah historically known as Wadi al-Arad, runs for a length of 120 km from northwest to southeast, cutting through the city of Riyadh. Its current name is derived from the Banu Hanifah, the principal Arab tribe in the area at the time of the Islamic conquest of Arabia. A string of towns and villages lie along the valley, including Uyaynah, Irqah and Diriyah.",
-                        location: "b"),
+                        location: "Location"),
                         .init(
                             name: "AlBujairi",
                             image: "AlBujairi",
                             des: "Al Bujairi Heritage Park offers different rides for children, food stalls, a market, painting, yard gatherings, and different workshops teaching tons of crafts, including pottery and calligraphy. Further to that, you can enjoy a tour of the entire park that offers a great view of Turaif district. There are also scheduled shows which are projected onto the walls of the palace, highlighting the heritage and history of Diriyah.One of the most famous attractions of the park is its story night, when people gather to listen to a famous storyteller who tells fascinating stories.",
-                            location: "C")  ]),
+                            location: "Location")  ]),
                     // place 2
-                    .init(namePlace: "AlMorabaa", image: "AlMorabaa", location: "z", des: "After the unification of Saudi Arabia, King Abdulaziz ordered building of palaces outside the former city walls of Old Riyadh, marking one of the preludes for the subsequent expansions of Riyadh. One of the places he chose was in the Murabba neighborhood in 1937 to build the Murabba Palace. According to Saudi historian Mansour al-Assaf, there was a square-shaped dry well in the neighborhood, from which the area derives its name 'al-Murabba' (lit. the square). In 1969, the Riyadh Water Tower was inaugurated in the neighborhood. In 1999, the King Abdulaziz Historical Center which contained the Abdulaziz's former Murabba Palace and the National Museum was inaugurated by King Fahd to commemorate the 100th anniversary (in terms of Hijri calendar) of Abdulaziz's capturing of Riyadh in 1902")
-            ,.init(namePlace: "AlMasmak", image: "AlMasmak", des: "a"), .init(namePlace: "National Museum", image: "NationalMuseum", des: "1"), .init(namePlace: "Water Tower", image: "WaterTower", des: "b"), .init(namePlace: "Tuaiq Castel", image: "Tuaiq", des: "1")
+                    .init(namePlace: "AlMorabaa", image: "AlMorabaa", location: "Location", des: "After the unification of Saudi Arabia, King Abdulaziz ordered building of palaces outside the former city walls of Old Riyadh, marking one of the preludes for the subsequent expansions of Riyadh. One of the places he chose was in the Murabba neighborhood in 1937 to build the Murabba Palace. According to Saudi historian Mansour al-Assaf, there was a square-shaped dry well in the neighborhood, from which the area derives its name 'al-Murabba' (lit. the square). In 1969, the Riyadh Water Tower was inaugurated in the neighborhood. In 1999, the King Abdulaziz Historical Center which contained the Abdulaziz's former Murabba Palace and the National Museum was inaugurated by King Fahd to commemorate the 100th anniversary (in terms of Hijri calendar) of Abdulaziz's capturing of Riyadh in 1902")
+            ,.init(namePlace: "AlMasmak", image: "AlMasmak", des: ""), .init(namePlace: "National Museum", image: "NationalMuseum", des: ""), .init(namePlace: "Water Tower", image: "WaterTower", des: ""), .init(namePlace: "Tuaiq Castel", image: "Tuaiq", des: "")
                         
                         ]))
         
